@@ -43,8 +43,8 @@ end<br>
 
 ## Result:
 Thus the bode plot for the given transfer function was drawn and verified using MATLAB. <br>
-Gain margin = 12.0
-Phase Margin = 60.42
-Gain crossover frequency = 0.907
-Phase crossover frequency = 4.4721
-The system is stable 
+Gain margin = 12.0<br>
+Phase Margin = 60.42<br>
+Gain crossover frequency = 0.907<br>
+Phase crossover frequency = 4.4721<br>
+The system is stable <br>
