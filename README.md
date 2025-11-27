@@ -5,6 +5,12 @@ To analyse the stability of the system having open loop transfer function, G(S)=
 Computer with MATLAB software
 
 ## Theory:
+![WhatsApp Image 2025-11-27 at 22 34 45_7222e77b](https://github.com/user-attachments/assets/53c6079a-f43d-4103-b049-5c4b1deb090f)
+![WhatsApp Image 2025-11-27 at 22 34 54_578df6bc](https://github.com/user-attachments/assets/10741906-ebd8-4641-8b05-0e4081b6fc6b)
+![WhatsApp Image 2025-11-27 at 22 36 13_37657e15](https://github.com/user-attachments/assets/99f42e43-2517-4873-bc11-e66c2189fab4)
+![WhatsApp Image 2025-11-27 at 22 35 07_322743ab](https://github.com/user-attachments/assets/a2b844f4-e6f1-4e89-99f3-f321bbf458e3)
+
+
 
 
 
@@ -17,19 +23,19 @@ Computer with MATLAB software
 	Also determine the stability.
 
 ## Program: 
-num=1
-den=[0.05 0.6 1 0]
-sys=tf(num,den)
-bode(sys)
-grid on
-[Gm Pm Wpc Wgc]=margin(sys)
-if(Wpc>Wgc)
-disp('stable')
-elseif(Wpc == Wgc)
-disp('marginally stable')
-else
-disp('unstable')
-end
+num=1<br>
+den=[0.05 0.6 1 0]<br>
+sys=tf(num,den)<br>
+bode(sys)<br>
+grid on<br>
+[Gm Pm Wpc Wgc]=margin(sys)<br>
+if(Wpc>Wgc)<br>
+disp('stable')<br>
+elseif(Wpc == Wgc)<br>
+disp('marginally stable')<br>
+else<br>
+disp('unstable')<br>
+end<br>
 
 ## Output:
 
